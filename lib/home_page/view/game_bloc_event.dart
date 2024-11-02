@@ -10,7 +10,7 @@ class StartGameEvent extends GameBlocEvent {
 class GameWinState extends GameBlocEvent {
   @override
   
-  List<Object?> get props => throw UnimplementedError();
+  List<Object?> get props => [];
 }
 class GuessNumberEvent extends GameBlocEvent {
   final int? guessedNumber;
